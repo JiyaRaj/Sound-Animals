@@ -1,0 +1,38 @@
+<html>
+
+<head>
+  <title>Sound Identification Web App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <center>
+    <div class="header_div text-center">
+      <h1>Sound Controlled Animals</h1>
+      <p>Note: Play differnt sounds like: bark, moo, meow, and roar!</p>
+    </div>
+
+    <div class="main_div">
+<button class="btn btn-success" onclick="Start()">Start</button>
+<h4 id="result_confidence"># of times animal is detected</h4>
+<h3 id="result_label">I can hear </h3>
+<br>
+<img id="ear" src="https://banner2.cleanpng.com/20180714/flf/kisspng-earwax-otitis-ear-pain-hearing-loss-quite-5b4a7714420d96.3173987315316068042706.jpg">
+
+    </div>
+
+    <div class="footer_div">Developed By: Aathmika Raj</div>
+  </center>
+  <script src="main.js"></script>
+</body>
+
+</html>

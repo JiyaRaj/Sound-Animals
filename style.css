@@ -1,0 +1,33 @@
+.header_div{
+    background-color: coral;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px double cadetblue;
+}
+
+body{
+    background-color: azure;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+#ear{
+    width: 100;
+    height: 100;
+}
+
+
+.footer_div{
+    background-color: thistle;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px double cadetblue;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+}
+
